@@ -17,20 +17,15 @@ header {
     max-width: 13rem;
 }
 
-.header-nav {
-    /* padding: 1.5rem; */
-    /* border-radius: 2rem; */
-}
 
 .header-nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    /* gap: 1.5rem; */
     padding: 0;
     margin: 0;
-    border-radius: 2rem;
     background-color: var(--light-purple);
+
 }
 
 
@@ -38,7 +33,15 @@ header {
     text-decoration: none;
     color: var(--text-black);
     font-weight: bold;
-    padding: 1.5rem;
-    border: 1px solid black;
-
+    /* border: 0.0625rem solid black; */
+    /* padding: 1.5rem; */
 }
+
+/* .header-nav li:first-child a{
+    border-radius: 2rem 0 0 2rem;
+}
+
+.header-nav li:last-child a{
+    border-radius: 0 2rem 2rem 0;
+    border: none;
+} */

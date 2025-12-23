@@ -3,3 +3,10 @@ footer{
     color: var(--white);
 
 }
+
+.footer-content {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+
+}
