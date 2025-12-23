@@ -7,6 +7,7 @@ header {
     margin: 0 auto;
     padding: 1.5rem 1rem;
 
+
 }
 
 .logo {
@@ -21,27 +22,43 @@ header {
 .header-nav ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0;
     margin: 0;
-    background-color: var(--light-purple);
-
+    padding: 0;
 }
 
+.header-nav li {
+    padding: 1rem;
+        /* border: red solid 1px; */
+
+}
 
 .header-nav a {
+    /* border: red solid 1px; */
+    display: flex;
+    /* justify-content: flex-end; */
+    padding: 1rem;
+    margin: -1rem;
     text-decoration: none;
     color: var(--text-black);
+    background-color: var(--light-purple);
+    border: 0.0625rem solid var(--white);
     font-weight: bold;
-    /* border: 0.0625rem solid black; */
-    /* padding: 1.5rem; */
+
 }
 
-/* .header-nav li:first-child a{
-    border-radius: 2rem 0 0 2rem;
+.header-nav li:first-child a {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding-left: 1.5rem;
 }
 
-.header-nav li:last-child a{
-    border-radius: 0 2rem 2rem 0;
-    border: none;
-} */
+.header-nav li:last-child a {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-right: 1.5rem;
+}
+
+.header-nav a:hover {
+    background-color: var(--dark-purple);
+    color: var(--white);
+}
