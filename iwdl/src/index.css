@@ -1,11 +1,24 @@
-*{
-    --white: #fcfcfc;
-    --text-black: #15245f;
-    --light-purple: #c05deb;
+* {
+    --white: #FCFCFC;
+    --text-black: #15245F;
+    --light-purple: #E6BEF7;
+    --dark-grey: #757575;
+    --page-width: 70rem;
+
 
 }
 
-html, body{
+html,
+body {
     font-family: Inter, sans-serif;
     background-color: var(--white);
+
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 0 1rem;
 }

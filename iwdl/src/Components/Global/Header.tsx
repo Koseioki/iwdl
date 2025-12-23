@@ -12,7 +12,7 @@ export function Header() {
           What is Intersectional Web Design?
         </NavLink></li>
         <li><NavLink to="/design-in-practice">Design in Practice</NavLink></li>
-        <li><NavLink to="/resources-and-events">Resources and Events</NavLink></li>
+        <li><NavLink to="/resources-and-events">Resources & Events</NavLink></li>
         <li><NavLink to="/about-us">About Us</NavLink></li>
         </ul>
       </nav>

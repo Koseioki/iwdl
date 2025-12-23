@@ -1,11 +1,15 @@
-header{
-
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1.5rem;
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+
 }
 
-.logo{
+.logo {
     font-weight: bold;
     font-size: 1.5rem;
     color: var(--text-black);
@@ -13,18 +17,28 @@ header{
     max-width: 13rem;
 }
 
-.header-nav ul{
+.header-nav {
+    /* padding: 1.5rem; */
+    /* border-radius: 2rem; */
+}
+
+.header-nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     padding: 0;
     margin: 0;
+    border-radius: 2rem;
     background-color: var(--light-purple);
 }
 
-.header-nav a{
+
+.header-nav a {
     text-decoration: none;
     color: var(--text-black);
     font-weight: bold;
+    padding: 1.5rem;
+    border: 1px solid black;
+
 }

@@ -6,6 +6,7 @@ import { Header } from './Components/Global/Header';
 import { WhatIsIntersectionalWebDesign } from './Pages/WhatIsIntersectionalWebDesign';
 import { DesignInPractice } from './Pages/DesignInPractice';
 import { ResourcesAndEvents } from './Pages/ResourcesAndEvents';
+import { Footer } from './Components/Global/Footer';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
         <Route path="/design-in-practice" element={<DesignInPractice />} />
         <Route path="/resources-and-events" element={<ResourcesAndEvents />} />
       </Routes>
+      <Footer />
     </Router>
 
     </>

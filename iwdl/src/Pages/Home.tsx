@@ -1,8 +1,8 @@
 export function Home() {
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the home page of the application.</p>
-    </div>
+    <main>
+      <h1>How can we make the digital world inclusive?</h1>
+      <p>At Intersectional Web Design Lab, we research ways to create ICT design that is intersectionally inclusive to everyone. We share ...</p>
+    </main>
   )
 }
