@@ -5,14 +5,14 @@ export function Header() {
   return (
     <header>
       <NavLink className="logo" to="/">
-        Intersectional Web Design Lab
+        Intersectional Design Lab
       </NavLink>
 
       <nav className="header-nav">
         <ul>
           <li>
-            <NavLink to="/what-is-intersectional-web-design">
-              What is Intersectional Web Design?
+            <NavLink to="/what-is-intersectional-design">
+              What is Intersectional Design?
             </NavLink>
           </li>
           <li>
@@ -22,7 +22,7 @@ export function Header() {
             <NavLink to="/resources-and-events">Resources & Events</NavLink>
           </li>
           <li>
-            <NavLink to="/about-us">About Us</NavLink>
+            <NavLink to="/about">About</NavLink>
           </li>
         </ul>
       </nav>

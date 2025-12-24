@@ -62,3 +62,8 @@ header {
     background-color: var(--dark-purple);
     color: var(--white);
 }
+
+.header-nav a:focus {
+    outline: none;
+    box-shadow: var(--focus-indicator-inset);
+}
