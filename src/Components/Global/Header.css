@@ -6,6 +6,7 @@ header {
     max-width: var(--page-width);
     margin: 0 auto;
     padding: 1.5rem 1rem;
+    background-color: var(--white);
 
 
 }
